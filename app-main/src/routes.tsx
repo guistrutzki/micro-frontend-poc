@@ -5,8 +5,8 @@ import {
   Route,
 } from 'react-router-dom'
 
-import Login from './Pages/Login';
-import Dashboard from './Pages/Dashboard';
+import { Login } from './Pages/Login';
+import { Dashboard } from './Pages/Dashboard';
 
 const Routes: FC = () => (
   <BrowserRouter>
