@@ -30,6 +30,15 @@ export const Container = styled.div`
   }
 `;
 
+export const PageBody = styled.div`
+  display: flex;
+  flex: 1;
+
+  .parcel-wrapper {
+    flex: 1;
+  }
+`;
+
 export const Sidebar = styled.div`
   width: calc(100vw /  6);
   background-color: #FF9900;
